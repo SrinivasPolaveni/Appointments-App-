@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.item {
+  list-style-type: none;
+  margin: 10px;
+  padding: 16px;
+  display: flex;
+  border: 1px solid #cbd2d9;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.card3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.paragraph8 {
+  font-size: 16px;
+  font-family: roboto;
+  color: #171f46;
+  font-weight: 600;
+}
+
+.paragraph5 {
+  font-size: 16px;
+  font-family: roboto;
+  font-weight: 400;
+  color: #b5b7c4;
+}
+
+.button2 {
+  background-color: transparent;
+  margin-top: 0px;
+  border: 0px;
+  margin: 0px;
+  text-align: center;
+}
+.image2 {
+  width: 20px;
+  height: 20px;
+  margin-top: 0px;
+}

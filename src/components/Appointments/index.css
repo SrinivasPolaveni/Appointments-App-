@@ -1,0 +1,197 @@
+/* Write your CSS here */
+.bg-Container {
+  background-color: #fbc7d4;
+  background-size: cover;
+  height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.Container {
+  background-color: #ffffff;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #cbd2d9;
+  margin-bottom: 4px;
+}
+.heading {
+  color: #171f46;
+  font-size: 35px;
+  font-family: roboto;
+  padding-left: 3px;
+}
+.paragraph {
+  color: #1e293b;
+  font-size: 17px;
+  font-family: roboto;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  width: 250px;
+  padding: 6px;
+  margin: 8px;
+  border-radius: 3px;
+  border: 1px solid;
+}
+
+.button {
+  background-color: #8b5cf6;
+  padding: 10px;
+  width: 120px;
+  color: #ffffff;
+  text-align: center;
+  border: 0px;
+  border-radius: 4px;
+  margin: 6px;
+  font-size: 15px;
+}
+.image {
+  width: 100%;
+}
+
+.paragraph1 {
+  color: #171f46;
+  font-size: 25px;
+  font-family: roboto;
+  font-weight: 600;
+  padding-left: 5px;
+}
+.label {
+  color: #171f46;
+  font-size: 15px;
+  font-family: roboto;
+  font-weight: 500;
+  padding: 5px;
+}
+.paragraph2 {
+  color: #8b5cf6;
+  font-size: 12px;
+  font-family: roboto;
+  border: 1px solid #8b5cf6;
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 6px;
+  width: 80px;
+}
+.paragraph0 {
+  color: #ffffff;
+  font-size: 12px;
+  font-family: roboto;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #8b5cf6;
+  padding: 6px;
+  width: 80px;
+}
+.Container1 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+}
+.card2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.appointmentList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+@media (max-width: 1000px) {
+  .bg-Container {
+    background-color: #fbc7d4;
+    background-size: cover;
+    padding: 7px;
+    height: 120vh;
+  }
+  .Container {
+    background-color: #ffffff;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #cbd2d9;
+    margin-bottom: 4px;
+  }
+  .Container1 {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 7px;
+  }
+  .heading {
+    color: #1e293b;
+    font-size: 22px;
+    font-family: roboto;
+  }
+  .paragraph {
+    color: #1e293b;
+    font-size: 15px;
+    font-family: roboto;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .input {
+    width: 150px;
+    padding: 4px;
+    margin: 4px;
+    border-radius: 3px;
+    border: 1px solid;
+  }
+
+  .button {
+    background-color: #0284c7;
+    padding: 10px;
+    width: 120px;
+    color: #ffffff;
+    text-align: center;
+    border: 0px;
+    border-radius: 4px;
+    margin: 6px;
+    font-size: 13px;
+  }
+  .image {
+    width: 30%;
+  }
+
+  .paragraph1 {
+    color: #171f46;
+    font-size: 18px;
+    font-family: roboto;
+    font-weight: 400;
+    padding-left: 5px;
+  }
+  .paragraph2 {
+    color: #8b5cf6;
+    font-size: 12px;
+    font-family: roboto;
+    border: 1px solid #8b5cf6;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 6px;
+    width: 80px;
+  }
+  .card2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 568px) {
+  .bg-Container {
+    background-color: #fbc7d4;
+    background-size: cover;
+    padding: 7px;
+    height: 150vh;
+  }
+}
